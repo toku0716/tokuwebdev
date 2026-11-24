@@ -1,6 +1,20 @@
 /* --------------------
         全体
 -------------------- */
+header {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.header-inner {
+  max-width: 1200px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+}
 
 :root {
   --theme-color: #00a0a0;
